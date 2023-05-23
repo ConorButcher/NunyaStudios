@@ -1130,7 +1130,7 @@ h1.big-text {
     left: 50px;
     display: inline-block;
     z-index: 1;
-    opacity: 0;
+    opacity: 1;
     transition: all .3s ease;
 }
 
