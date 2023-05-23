@@ -392,25 +392,25 @@ body .sm-clean li.current_page_item > a {
 }
 
 .section h3.entry-title {
-    font-size: 16px;
+    font-size: 30px;
     line-height: 149%;
-    font-weight: 400;
+    font-weight: 500;
     word-break: break-word;
     text-align: center;
     color: #fff;
     letter-spacing: 2px;
-    margin-top: 32px;
+    margin-top: 25px;
 }
 
 .section h3.entry-title2 {
-    font-size: 16px;
+    font-size: 30px;
     line-height: 149%;
-    font-weight: 400;
+    font-weight: 500;
     word-break: break-word;
     text-align: center;
     color: #2E394D;
     letter-spacing: 2px;
-    margin-top: 32px;
+    margin-top: 25px;
 }
 
 .page .page-content {
@@ -1116,7 +1116,7 @@ h1.big-text {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #2E394d;
     left: 0;
     top: 0;
     opacity: 0;
@@ -1150,9 +1150,9 @@ h1.big-text {
     margin-bottom: 0;
 }
 
-.grid-item a.item-link:hover, 
+.grid-item a.item-link:hover:after, 
 .grid-item a.item-link:hover .portfolio-text-holder {
-    opacity: 1;
+    opacity: .8;
 }
 
 .portfolio-content h1 {
@@ -2776,3 +2776,4 @@ footer .footer-social-divider:before {
     }
 
 }
+
