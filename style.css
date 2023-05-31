@@ -619,7 +619,7 @@ body a.button2 {
     text-decoration: none;
     transition: all .2s linear;
     margin-bottom: 17px;
-    border: 2px solid #000;
+    border: 2px solid #2E394D;
     border-radius: 50px;
     font-size: 14px;
     letter-spacing: 2px;
@@ -628,7 +628,7 @@ body a.button2 {
 
 a.button2:hover {
     background-color: transparent;
-    color: #000;
+    color: #2E394D;
 }
 
 a.button2-dot {
