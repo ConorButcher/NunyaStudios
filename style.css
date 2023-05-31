@@ -2010,16 +2010,6 @@ body.blog {
     line-height: 25px;    
 }
 
-.contact-form input[type=text]::ms-input-placeholder, 
-.contact-form input[type=email]::ms-input-placeholder, 
-.contact-form textarea::ms-input-placeholder {
-    font-family: 'Rubik', sans-serif;
-    color: #000;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-}
-
 .contact-form input[name="your-name"] {
     margin-top: 0;    
 }
@@ -2128,43 +2118,8 @@ body.blog {
     line-height: 25px;    
 }
 
-.contact-form-signup input[type=text]::ms-input-placeholder, 
-.contact-form-signup input[type=email]::ms-input-placeholder, 
-.contact-form-signup textarea::ms-input-placeholder {
-    font-family: 'Rubik', sans-serif;
-    color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-}
-
 .contact-form-signup input[name="your-email-address"] {
     margin-top: 0;    
-}
-
-.contact-submit-holder {
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.contact-form-signup input[type=signup] {
-    color: #fff;
-    background-color: #2E394D;
-    text-align: center;
-    padding: 10px 40px;    
-    cursor: pointer;
-    vertical-align: middle;
-    text-decoration: none;
-    transition: all .2s linear;
-    margin-bottom: 17px;
-    display: block;
-    width: 100%;
-    line-height: 35px;
-    border: 2px solid #2E394D;
-    border-radius: 50px;
-    font-size: 14px;
-    letter-spacing: 2px;
-    box-sizing: border-box;
 }
 
 .contact-form-signup input[type=signup] {
