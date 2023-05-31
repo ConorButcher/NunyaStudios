@@ -1116,22 +1116,27 @@ h1.big-text {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #2E394d;
+    background-color: #000;
     left: 0;
     top: 0;
     opacity: 0;
+	z-index: 0;
     transition: opacity .3s ease-in-out;
 }
 
 .portfolio-text-holder {
     color: #fff;
+	margin: auto;
+	width: 100%;
+	height: 100%;
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 0px;
+    left: 0px;
     display: inline-block;
     z-index: 1;
-    opacity: 1;
+    opacity: 0;
     transition: all .3s ease;
+	aligh: center;
 }
 
 .portfolio-title {
@@ -1140,6 +1145,16 @@ h1.big-text {
     margin-bottom: 0;
     font-weight: 700;
     color: #FFF;
+	text-align: center;
+}
+
+.vertical-center {
+  	margin: 0;
+  	position: absolute;
+	width: 100%;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 
 .portfolio-desc {
@@ -1148,11 +1163,12 @@ h1.big-text {
     color: #FFF;
     letter-spacing: 2px;
     margin-bottom: 0;
+	text-align: center;
 }
 
 .grid-item a.item-link:hover:after, 
 .grid-item a.item-link:hover .portfolio-text-holder {
-    opacity: .8;
+    opacity: .6;
 }
 
 .portfolio-content h1 {
@@ -2040,6 +2056,144 @@ body.blog {
 
 
 /* ===================================
+    16. Email Sign Up
+====================================== */
+
+.contact-form-signup {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 22px;
+    color: #fff;
+}
+
+.contact-form-signup p {
+    margin-bottom: 0 !important;
+}
+
+.contact-form-signup input[type=text], 
+.contact-form-signup input[type=email], 
+.contact-form-signup textarea {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border: 0;
+    font-size: 15px;
+    padding: 5px 0;
+    width: 100%;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 35px;
+    text-indent: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid;
+}
+
+.contact-form-signup input[type=signup], 
+.contact-form-signup textarea {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border: 0;
+    font-size: 15px;
+    padding: 5px 0;
+    width: 100%;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 35px;
+    text-indent: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid;
+}
+
+.contact-form-signup textarea {
+    height: 150px;
+}
+
+.contact-form-signup input[type=text]::placeholder, 
+.contact-form-signup input[type=email]::placeholder, 
+.contact-form-signup textarea::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+.contact-form-signup input[type=text]:ms-input-placeholder, 
+.contact-form-signup input[type=email]:ms-input-placeholder, 
+.contact-form-signup textarea:ms-input-placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;    
+}
+
+.contact-form-signup input[type=text]::ms-input-placeholder, 
+.contact-form-signup input[type=email]::ms-input-placeholder, 
+.contact-form-signup textarea::ms-input-placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.contact-form-signup input[name="your-email-address"] {
+    margin-top: 0;    
+}
+
+.contact-submit-holder {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.contact-form-signup input[type=signup] {
+    color: #fff;
+    background-color: #2E394D;
+    text-align: center;
+    padding: 10px 40px;    
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    border: 2px solid #2E394D;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.contact-form-signup input[type=signup] {
+    color: #2E394D;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 40px;    
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.contact-form-signup input[type=signup]:hover {
+    background-color: #2E394D;
+    color: #fff;
+}
+
+
+/* ===================================
     16. Footer CSS
 ====================================== */
 
@@ -2080,6 +2234,7 @@ footer ul {
 .footer-logo-divider {
     position: relative;
     height: 60px;
+	margin-top: 50px;
     margin-bottom: 30px;
 }
 
