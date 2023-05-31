@@ -1,11 +1,4 @@
 /*
-    Template Name    : Nunya Studios
-    Author           : CocoBasic
-    Version          : 1.3        
-*/
-
-/* -------------------- Table of Content -------------------- */
-/*
 1. 3rd Part CSS Libraries
 2. Global CSS
         2.1 Global Header Logo/Menu CSS	
@@ -30,8 +23,7 @@
 15. Contact Section CSS
 16. Footer CSS
 17. Responsive CSS
--------------------------------------------------------------------*/
-
+*/
 
 /* ===================================
     1. 3rd Part CSS Libraries
@@ -43,8 +35,6 @@
 @import url("css/owl.carousel.min.css");
 @import url("css/owl.theme.default.min.css");
 @import url("css/common.css");
-
-
 
 /* ===================================
     2. Global CSS
@@ -121,7 +111,6 @@ body pre {
     position: relative;
     padding: 200px 0 115px 0;
 }
-
 
 /* ===================================
     2.1 Global Header Logo/Menu CSS
@@ -334,7 +323,6 @@ body .sm-clean li.current_page_item > a {
     border-radius: 5px;
 }
 
-
 /* ===================================
     2.2 General Section CSS
 ====================================== */
@@ -487,7 +475,6 @@ body .social a:hover {
     opacity: 0.5;    
 }
 
-
 /* ===================================
     2.3 Columns CSS
 ====================================== */
@@ -553,7 +540,6 @@ body .social a:hover {
 .three_fourth.margin-0 {
     width: 75%;
 }
-
 
 /* ===================================
     2.4 Button CSS
@@ -684,7 +670,6 @@ a.button2-dot:hover:before {
     border-radius: 50px;
     top: -18px;
 }
-
 
 /* ===================================
     2.5 Image/Text Slider CSS
@@ -886,7 +871,6 @@ a.button2-dot:hover:before {
     animation-name: fadeOut;
 }
 
-
 /* ===================================
     3. Home Section CSS
 ====================================== */
@@ -911,7 +895,6 @@ h1.big-text {
     line-height: 120%;
     margin-bottom: 40px;
 }
-
 
 /* ===================================
     4. Services Section CSS
@@ -957,7 +940,6 @@ h1.big-text {
     -webkit-transform: translateZ(0);
 }
 
-
 /* ===================================
     5. About Section CSS
 ====================================== */
@@ -970,7 +952,6 @@ h1.big-text {
     background-size: auto;
 }
 
-
 /* ===================================
     6. Clients Section CSS
 ====================================== */
@@ -981,7 +962,6 @@ h1.big-text {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /* ===================================
     7. News Section CSS
@@ -1054,7 +1034,6 @@ h1.big-text {
     opacity: 0.8;
     transform: scale(1.1);
 }
-
 
 /* ===================================
     8. Portfolio Section CSS
@@ -1239,7 +1218,6 @@ h1.big-text {
     transform: translateX(-5px);
 }
 
-
 /* ===================================
     8.1 Single Portfolio
 ====================================== */
@@ -1248,7 +1226,6 @@ h1.big-text {
     margin-top: 100px;
     margin-bottom: 50px;
 }
-
 
 /* ===================================
     9. Pricing Section CSS
@@ -1358,7 +1335,6 @@ h1.big-text {
     text-align: center;
 }
 
-
 /* ===================================
     10. Team Section CSS
 ====================================== */
@@ -1436,7 +1412,6 @@ h1.big-text {
     color: #fff !important;
 }
 
-
 /* ===================================
     11. Skills Section CSS
 ====================================== */
@@ -1490,7 +1465,6 @@ h1.big-text {
     font-size: 22px;
     line-height: 35px;
 }
-
 
 /* ===================================
     12. Milestones Section CSS
@@ -1555,8 +1529,6 @@ p.milestone-num {
         1px 0 #b3b3b3, 
         0 -1px #b3b3b3;
 }
-
-
 
 /* ===================================
     13. Blog Page CSS
@@ -1755,8 +1727,6 @@ body.blog {
     color: #47ea4e;
 }
 
-
-
 /* ===================================
     14. Single Post CSS
 ====================================== */
@@ -1902,7 +1872,6 @@ body.blog {
     background-color: #4D4D4D;
 }
 
-
 /* ===================================
    14.1 Tipper CSS
 ====================================== */
@@ -1951,7 +1920,6 @@ body.blog {
 .tipper-left .tipper-content {
     box-shadow: -1px 0 5px rgba(0, 0, 0, 0.35);
 }
-
 
 /* ===================================
     15. Contact Section CSS
@@ -2044,25 +2012,11 @@ body.blog {
     color: #2E394D;
 }
 
-
 /* ===================================
     16. Email Sign Up
 ====================================== */
 
-.contact-form-signup {
-    max-width: 100%;
-    margin: 0 auto;
-    font-size: 22px;
-    color: #fff;
-}
-
-.contact-form-signup p {
-    margin-bottom: 0 !important;
-}
-
-.contact-form-signup input[type=text], 
-.contact-form-signup input[type=email], 
-.contact-form-signup textarea {
+.contact-form-signup input[type=text] {
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     border: 0;
@@ -2077,49 +2031,13 @@ body.blog {
     border-bottom: 3px solid;
 }
 
-.contact-form-signup input[type=signup], 
-.contact-form-signup textarea {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
-    border: 0;
-    font-size: 15px;
-    padding: 5px 0;
-    width: 100%;
-    line-height: 25px;
-    color: #fff;
-    margin-bottom: 35px;
-    text-indent: 10px;
-    background-color: transparent;
-    border-bottom: 3px solid;
-}
-
-.contact-form-signup textarea {
-    height: 150px;
-}
-
-.contact-form-signup input[type=text]::placeholder, 
-.contact-form-signup input[type=email]::placeholder, 
-.contact-form-signup textarea::placeholder {
+.contact-form-signup input[type=text]::placeholder {
     font-family: 'Rubik', sans-serif;
     color: #fff;
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
     opacity: 1;
-}
-
-.contact-form-signup input[type=text]:ms-input-placeholder, 
-.contact-form-signup input[type=email]:ms-input-placeholder, 
-.contact-form-signup textarea:ms-input-placeholder {
-    font-family: 'Rubik', sans-serif;
-    color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;    
-}
-
-.contact-form-signup input[name="your-email-address"] {
-    margin-top: 0;    
 }
 
 .contact-form-signup input[type=signup] {
@@ -2146,7 +2064,6 @@ body.blog {
     background-color: #2E394D;
     color: #fff;
 }
-
 
 /* ===================================
     16. Footer CSS
@@ -2249,12 +2166,9 @@ footer .footer-social-divider:before {
     margin: 0;
 }
 
-
-
 /* ===================================
     17. Responsive CSS
 ====================================== */
-
 
 @media screen and (max-width: 1600px) { 
 
