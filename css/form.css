@@ -26,6 +26,24 @@
     border-bottom: 3px solid;
 }
 
+ #mc_embed_signup input[type=text]::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 1;
+}
+
+ #mc_embed_signup input[type=email]::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 1;
+}
+
 #mc_embed_signup input[type=checkbox]{
 	-webkit-appearance:checkbox;
 }
