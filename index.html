@@ -394,7 +394,9 @@
                                     Working
                                 </h2>
                                 <p>
-                                  Whether you're ready to start a new project or have questions about our services, our team is ready to help. Contact us today to get started and experience the best in architectural visualization.
+                                  	Whether you're ready to start a new project or have questions about our services, our team is ready to help. Contact us today to get started and experience the best in architectural visualization. Feel free to attach any docuemtns which could help us in providing a more accurate quote. 
+									<br>
+									<br> (Max file size 8mb.)
                               	</p>
                                 <br>
                                 <div class="social">
@@ -424,7 +426,7 @@
                                 </div>
                             </div>
 							<div class="one_half last ">
-                                <form name="contact" class="contact-form" data-netlify="true">
+                                <form name="contact" class="contact-form" enctype="multipart/form-data" data-netlify="true">
                                     <p>
                                         <input id="name" type="text" name="your-name" placeholder="Name">
                                     </p>
@@ -434,11 +436,16 @@
                                     <p>
                                         <input id="subject" type="text" name="your-subject" placeholder="Subject">
                                     </p>
+									<p>
+    									<label>
+      										<input name="file" type="file"/>
+    									</label>
+  									</p>
                                     <p>
                                         <textarea id="message" name="your-message" placeholder="Message"></textarea>
                                     </p>
                                     <p class="contact-submit-holder">
-                                        <input type="submit" value="SEND">
+										<input type="submit" value="SEND">
                                     </p>  
                                 </form>
                             </div>
